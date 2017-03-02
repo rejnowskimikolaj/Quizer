@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context="com.example.user.quizer.LifeBeltFragment"
+    android:layout_height="100dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/life_belt_result_text_view"
+        android:layout_weight="0.81"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textPrimary"
+        android:text="@string/lifebelts" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/answer_button_gradient"
+            android:text="50/50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/life_belt_fifty_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/answer_button_gradient"
+
+            android:text="@string/ask_audience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/life_belt_askAudience_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/answer_button_gradient"
+
+            android:text="@string/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/life_belt_call_button"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

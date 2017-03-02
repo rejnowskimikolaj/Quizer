@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.quizer.GameFinishedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:id="@+id/fragmet_game_finished_frame_layout"
+        >
+
+        <TextView
+            android:textColor="@color/answerButtonTextColor"
+            android:text="Good job!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_finished_correct_answer"
+            android:textAlignment="center" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:textColor="@color/answerButtonTextColor"
+            android:background="@drawable/answer_button_gradient"
+            android:text="@string/save"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_finished_button" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            />
+        <Button
+            android:background="@drawable/answer_button_gradient"
+            android:textColor="@color/answerButtonTextColor"
+            android:text="@string/goToMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_finished_go_to_menu_button" />
+    </LinearLayout>
+</RelativeLayout>

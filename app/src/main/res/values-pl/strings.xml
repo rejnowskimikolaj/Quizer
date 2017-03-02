@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lifebelts">Koła ratunkowe</string>
+    <string name="level">Poziom</string>
+    <string name="cash">Kasa:</string>
+    <string name="new_game">Nowa Gra</string>
+    <string name="settings">Ustawienia</string>
+    <string name="exit">Wyjście</string>
+    <string name="fifty_fifty">Pół na pół</string>
+    <string name="ask_audience">Publiczność</string>
+    <string name="call">Telefon</string>
+    <string name="your_max_level">Ukończony poziom:</string>
+    <string name="delete_scores">Usuń wyniki</string>
+    <string name="save">Zapisz swój wynik</string>
+    <string name="TypeYourName">Wpisz swoje imię</string>
+    <string name="goToMainMenu">Idź do menu głównego</string>
+    <string name="max_level">Max. poziom</string>
+    <string name="scores">Wyniki</string>
+    <string name="saveShort">Zapisz</string>
+    <string name="name">twoje imię</string>
+    <string name="audience_results">Wyniki głosowania</string>
+    <string name="i_think_that">Myślę,że poprawna odpowiedź to: </string>
+    <string name="question_for">Pytanie za:  </string>
+
+
+
+</resources>
